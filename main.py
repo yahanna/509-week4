@@ -14,7 +14,7 @@ def flood_fill(input_board, old, new, x, y):
     def fill(x, y):
         for s in input_board:
             if len(s) != len(input_board[0]):
-            return("input boards length invalid")
+                return("input boards length invalid")
         if (
             x < 0
             or x >= len(input_board)
